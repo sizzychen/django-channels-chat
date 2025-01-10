@@ -39,3 +39,37 @@ nosetests.xml
 
 #VS Code
 .vscode
+
+# Clacky Configuration
+.1024*
+!.1024
+.breakpoints
+
+# Python Virtual Environment
+.venv/
+Pipfile.lock
+__pycache__/
+
+# Django
+*.sqlite3
+local_settings.py
+*.pyc
+media/
+static/admin/
+staticfiles/
+
+# Redis
+dump.rdb
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
