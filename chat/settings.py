@@ -82,8 +82,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'chat',
-        'USER': 'root_CDVApCsIUOhXMJIyveUJ',
-        'PASSWORD': 'nPpwjTMi',
+        'USER': 'root_xFqhREJQwKTWHysWJdpY',
+        'PASSWORD': 'EFnJGVOk',
         'HOST': 'mysql.inner.clackypaas.com',
         'PORT': '3306',
         'OPTIONS': {
@@ -185,7 +185,7 @@ CHANNEL_LAYERS = {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
             'hosts': ['redis://:{password}@{host}:{port}/0'.format(
-                password='r-WXyoDdVyDOvbsfNeIwmg',
+                password='r-VEDsTEtexJlpEGBLplYz',
                 host='redis.inner.clackypaas.com',
                 port=6379
             )]
