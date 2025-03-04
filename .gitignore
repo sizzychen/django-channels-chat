@@ -37,14 +37,6 @@ nosetests.xml
 .project
 .pydevproject
 
-#VS Code
-.vscode
-
-# Clacky Configuration
-.1024*
-!.1024
-.breakpoints
-
 # Python Virtual Environment
 .venv/
 Pipfile.lock
